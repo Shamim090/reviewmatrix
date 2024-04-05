@@ -1,0 +1,54 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  padding: 1vh;
+  border: 1px solid inherit;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: inherit;
+}
+
+.search-input-container,
+.search-button-container {
+  flex: 1; /* Both elements share the available space equally */
+  display: flex; /* Allow alignment within each container */
+}
+
+.search-input-container {
+  color: azure;
+}
+
+.search-input-container input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 3vh 4vw;
+  font-size: 16px;
+  background-color: inherit;
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+  color: rgb(43, 46, 46);
+}
+
+.search-button-container {
+  justify-content: flex-end; /* Align button to the right */
+}
+
+.search-button-container button {
+  background-color: var(--bard-green); /* Use bard-green from navbar */
+  border: none;
+  color: white;
+  padding: 3vh 4vw;
+  font-size: 14px auto; /* Adjust slightly smaller than input */
+  font-weight: bold;
+  margin-left: 10px; /* Constant gap between input and button */
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.search-button-container button:hover {
+  background-color: #219653; /* Slightly darker green on hover */
+}

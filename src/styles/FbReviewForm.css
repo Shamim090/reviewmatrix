@@ -1,0 +1,127 @@
+.facebook-page-review-form {
+  display: flex;
+  flex-direction: column;
+  width: 600px; /* Default width for larger screens */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  background-color: #d7e7fc; /* Light background color */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+
+  @media (max-width: 768px) {
+    width: 90%; /* Adjusts width for smaller screens */
+  }
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.form-group label {
+  width: 150px;
+  margin-right: 10px;
+  color: #343a40; /* Grayish text color */
+  font-weight: bold;
+
+  @media (max-width: 768px) {
+    width: 100%; /* Full width for labels on mobile */
+  }
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px; /* Increased padding for better spacing */
+  border: 1px solid #e2e2e2; /* Light border color */
+  border-radius: 4px;
+  font-size: 16px; /* Consistent font size */
+  background-color: #f0f4f9; /* Light gray background */
+}
+.textarea-control {
+  /* Existing styles... */
+  border: 1px solid #e2e2e2; /* Add border for textarea */
+  border-radius: 4px; /* Add rounded corners */
+  padding: 10px; /* Adjust padding if needed */
+}
+
+.react-datepicker__input-container {
+  /* Styles for date picker input field */
+  border: 1px solid #e2e2e2; /* Add border */
+  border-radius: 4px; /* Add rounded corners */
+  padding: 10px; /* Adjust padding if needed */
+  background-color: #f0f4f9; /* Light gray background */
+  font-size: 16px; /* Consistent font size */
+  display: block; /* Ensure full width */
+  width: 100%; /* Match element width */
+}
+
+.react-datepicker__day {
+  /* Styles for individual date cells */
+  border: 1px solid transparent; /* Remove default border */
+  border-radius: 2px; /* Add subtle rounded corners */
+  text-align: center; /* Center text within cells */
+  padding: 5px; /* Adjust padding if needed */
+  cursor: pointer; /* Indicate clickable cells */
+}
+
+.react-datepicker__day--selected {
+  /* Styles for selected date cell */
+  background-color: #28a745; /* Green color like Bard accent */
+  color: white; /* White text for contrast */
+}
+
+.react-datepicker__day--keyboard-selected {
+  /* Styles for keyboard-selected date cell (optional) */
+  background-color: #ddd; /* Light gray for keyboard selection */
+}
+.textarea-control {
+  /* Styles for the textarea specifically */
+  width: 100%;
+  min-height: 100px; /* Set minimum height for the textarea */
+  resize: vertical; /* Allow users to resize the textarea vertically */
+  border: 1px solid #e2e2e2; /* Add border for textarea */
+  border-radius: 4px; /* Add rounded corners */
+  padding: 10px; /* Adjust padding if needed */
+}
+
+.review-summary {
+  margin-top: 20px;
+  border-top: 1px solid #767474;
+  padding-top: 10px;
+}
+
+.rating-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border-radius: 1px;
+
+}
+
+.rating-group label {
+  margin-right: 10px ;
+}
+
+.submit-button {
+  background-color: #28a745; /* Green color like Bard accent */
+  border: none;
+  color: white;
+  padding: 10px 20px; /* Adjusted padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold; /* Bold text */
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+
+  /* Hover effect for button */
+  transition: background-color 0.2s ease-in-out;
+  &:hover {
+    background-color: #219653; /* Darker green on hover */
+  }
+}

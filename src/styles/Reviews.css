@@ -1,0 +1,116 @@
+/* General styles */
+.reviews-container {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  display: flex;
+  flex-direction: column;
+  /* min-height: 100vh; Set minimum height for full viewport coverage */
+  min-height: unset;
+  max-height: 95vh;
+}
+
+/* Search bar */
+.search-bar {
+  /* Use styles from your existing SearchReview component */
+  /* Assuming SearchReview renders the search input field and button */
+  /* Adjust padding and margin as needed based on your component's styles */
+  padding: 1vh 1vw;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  border: 1px solid #ddd;
+  border-radius: 35px;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 70%;
+  grid-gap: 10px; /* Adjust spacing as needed */
+  height: 80vh;
+}
+
+/* Filters container */
+.filters-container {
+  /* Add styles specific to filters here */
+  background-color: #e9eef6; /* Example background color */
+  padding: 10px; /* Example padding */
+  border-radius: 0.3rem;
+}
+
+/* Review results container */
+.review-results-container {
+  /* Add styles specific to review results here */
+  background-color: #fff; /* Example background color */
+  padding: 10px; /* Example padding */
+  overflow-y: auto; /* Enable scrolling for long content */
+}
+
+/* Write a review button */
+.sticky-write-review {
+  position: fixed; /* Make button stick to bottom on larger screens */
+  bottom: 20px; /* Adjust position as needed */
+  right: 20px; /* Adjust position as needed */
+  background-color: var(--bard-green); /* Use bard-green from navbar */
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+
+  /* Adapt media query for potential conflicts with grid layout */
+  @media (max-width: 768px) {
+    position: absolute; /* Change to absolute positioning on smaller screens */
+    top: 95vh; /* Position 10% from top */
+    left: 80%; /* Center horizontally */
+    transform: translateX(-50%); /* Offset by half its width */
+    bottom: unset; /* Remove bottom property */
+    right: unset; /* Remove right property */
+  }
+}
+
+.sticky-write-review:hover {
+  background-color: #219653; /* Slightly darker green on hover */
+}
+
+.modal-view {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  align-items: center;
+}
+
+
+.modal-close-button {
+  background-color: #e74c3c; /* Use bard-green from navbar */
+  border: none;
+  color: white;
+  padding: 1px 4px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute; /* Add absolute positioning */
+  top: 10px; /* Position from top */
+  right: 10px; /* Position from right */
+}
+
+.modal-close-button:hover {
+  background-color: #974c3c; /* Slightly darker green on hover */
+}
+.darkish-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Darkish with 0.5 opacity */
+  z-index: 99; /* Ensure overlay appears behind the modal */
+}

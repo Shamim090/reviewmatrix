@@ -1,0 +1,48 @@
+/* Shared styles for all components */
+
+.review-summary {
+    margin: 1vh;
+    padding: 1vh;
+    border: 1px solid #9e9da5;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .review-summary:hover {
+    transform: scale(1.03); /* Slight hover transform */
+  }
+  
+  .summary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .rating {
+    color: gold;
+  }
+  
+  .experience-excerpt {
+    font-size: 14px;
+  }
+  
+  .view-details-btn {
+    background-color: var(--bard-green); /* Use bard-green from navbar */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .view-details-btn:hover {
+    background-color: #219653;
+  }
+  

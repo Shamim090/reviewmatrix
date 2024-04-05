@@ -1,0 +1,29 @@
+
+@import 'reviewBase';
+.review-summary {
+  /* Import base styles (optional) */
+  
+
+  /* Styles for ReviewSummary */
+  width: 100%; /* Take full width of parent */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+}
+.modal-view {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  align-items: center;
+  overflow-y: auto;
+  max-height: 80vh; /* Set a maximum height to prevent excessive scrolling */
+}
+.darkish-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Darkish with 0.5 opacity */
+  z-index: 99; /* Ensure overlay appears behind the modal */
+}

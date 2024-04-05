@@ -1,6 +1,16 @@
-.App {
-  text-align: center;
+/* General styles for all components within the "app" class */
+.app {
+  /* Add your general styles here, e.g., font, margin, padding */
+  font-family: sans-serif;
+  margin: 0;
+  padding: .2rem;
+  display: flex; /* Enable flexbox layout */
+  flex-direction: column; /* Stack elements vertically */
+  min-height: 100vh; /* Ensure minimum height for viewport coverage */
+  overflow: hidden;
+  min-height: 100vh;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -15,7 +25,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: unset;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +45,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* nav {
+  height: 10vh;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link {
+  color: aliceblue;
+  margin: 1rem;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: orangered;
+}
+nav .active {
+  color: rebeccapurple;
+} */
+section {
+  display: grid;
+  grid-gap: 1rem;
+}
+article {
+  background-color: aliceblue;
+}
+@media screen and (min-width: 600px) {
+  section {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  section {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media screen {
+  
 }

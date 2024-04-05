@@ -1,0 +1,33 @@
+.review-details {
+    /* Consistent background color for sections */
+    background-color: #f0f4f9;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .reviewer-id {
+    /* Similar font weight and margin as labels */
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .experience {
+    /* Consistent font size */
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .rating-details {
+    /* Consistent light border for elements */
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .rating-details p {
+    /* Consistent font size and bold for emphasis */
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  

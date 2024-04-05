@@ -1,0 +1,436 @@
+{
+  "users": [
+    {
+      "username": "user1",
+      "userId": "001",
+      "email": "user1@x.com",
+      "password": "pass1",
+      "id": "a485"
+    },
+    {
+      "username": "user2",
+      "userId": "002",
+      "email": "user2@x.com",
+      "password": "pass2",
+      "id": "d2b7"
+    },
+    {
+      "username": "user3",
+      "userId": "003",
+      "email": "user3@x.com",
+      "password": "pass3",
+      "id": "16a4"
+    },
+    {
+      "username": "user4",
+      "userId": "004",
+      "email": "user4@x.com",
+      "password": "pass4",
+      "id": "5e0f"
+    },
+    {
+      "username": "user5",
+      "userId": "005",
+      "email": "user5@x.com",
+      "password": "pass5",
+      "id": "2336"
+    },
+    {
+      "username": "user6",
+      "userId": "006",
+      "email": "user6@x.com",
+      "password": "pass6",
+      "id": "a9e0"
+    },
+    {
+      "username": "user7",
+      "userId": "007",
+      "email": "user7@x.com",
+      "password": "pass7",
+      "id": "e035"
+    },
+    {
+      "username": "user8",
+      "userId": "008",
+      "email": "user8@x.com",
+      "password": "pass8",
+      "id": "85a3"
+    },
+    {
+      "username": "user9",
+      "userId": "009",
+      "email": "user9@x.com",
+      "password": "pass9",
+      "id": "a807"
+    },
+    {
+      "username": "user10",
+      "userId": "010",
+      "email": "user10@x.com",
+      "password": "pass10",
+      "id": "6a83"
+    }
+  ],
+  "userReviews": [
+    {
+      "id": "5ed0",
+      "reviewerId": "001",
+      "nameOfPage": "sample page-05",
+      "pageUrl": "https://www.facebook.com/samplepage05",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "I purchased a few items from this page and I am satisfied with the quality. Page-05",
+      "productPriceRating": 4,
+      "productQualityRating": 3,
+      "DeliveryServiceRating": 2,
+      "CustomerServiceRating": 5
+    },
+    {
+      "id": "9bfc",
+      "reviewerId": "002",
+      "nameOfPage": "sample page-04",
+      "pageUrl": "https://www.facebook.com/samplepage04",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "Great experience shopping here! Fast delivery and good customer service.",
+      "productPriceRating": 5,
+      "productQualityRating": 4,
+      "DeliveryServiceRating": 3,
+      "CustomerServiceRating": 2
+    },
+    {
+      "id": "22dc",
+      "reviewerId": "003",
+      "nameOfPage": "sample page-04",
+      "pageUrl": "https://www.facebook.com/samplepage04",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "Not happy with the product quality. It didn't meet my expectations.",
+      "productPriceRating": 3,
+      "productQualityRating": 2,
+      "DeliveryServiceRating": 5,
+      "CustomerServiceRating": 4
+    },
+    {
+      "id": "a9bd",
+      "reviewerId": "004",
+      "nameOfPage": "sample page-03",
+      "pageUrl": "https://www.facebook.com/samplepage03",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "The page has a good selection of products but the prices are a bit high.",
+      "productPriceRating": 2,
+      "productQualityRating": 1,
+      "DeliveryServiceRating": 3,
+      "CustomerServiceRating": 4
+    },
+    {
+      "id": "7f8a",
+      "reviewerId": "005",
+      "nameOfPage": "sample page-03",
+      "pageUrl": "https://www.facebook.com/samplepage03",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "Excellent customer service! Quick response to my queries.",
+      "productPriceRating": 5,
+      "productQualityRating": 4,
+      "DeliveryServiceRating": 3,
+      "CustomerServiceRating": 2
+    },
+    {
+      "id": "4c5f",
+      "reviewerId": "006",
+      "nameOfPage": "sample page-03",
+      "pageUrl": "https://www.facebook.com/samplepage03",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "The delivery service was slow and the product quality was average.",
+      "productPriceRating": 3,
+      "productQualityRating": 2,
+      "DeliveryServiceRating": 1,
+      "CustomerServiceRating": 4
+    },
+    {
+      "id": "ba02",
+      "reviewerId": "007",
+      "nameOfPage": "sample page-01",
+      "pageUrl": "https://www.facebook.com/samplepage01",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "I had a pleasant shopping experience on this page. Good quality products and fast delivery.",
+      "productPriceRating": 4,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 3,
+      "CustomerServiceRating": 2
+    },
+    {
+      "id": "81d9",
+      "reviewerId": "008",
+      "nameOfPage": "sample page-03",
+      "pageUrl": "https://www.facebook.com/samplepage03",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "The customer service was excellent but the product quality could be improved.",
+      "productPriceRating": 3,
+      "productQualityRating": 2,
+      "DeliveryServiceRating": 4,
+      "CustomerServiceRating": 5
+    },
+    {
+      "id": "3e16",
+      "reviewerId": "009",
+      "nameOfPage": "sample page-02",
+      "pageUrl": "https://www.facebook.com/samplepage02",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "I had a terrible experience with this page. The product I received was damaged.",
+      "productPriceRating": 1,
+      "productQualityRating": 2,
+      "DeliveryServiceRating": 3,
+      "CustomerServiceRating": 4
+    },
+    {
+      "id": "1a4b",
+      "reviewerId": "010",
+      "nameOfPage": "sample page-09",
+      "pageUrl": "https://www.facebook.com/samplepage09",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "Average experience overall. Nothing outstanding.",
+      "productPriceRating": 3,
+      "productQualityRating": 3,
+      "DeliveryServiceRating": 3,
+      "CustomerServiceRating": 3
+    },
+    {
+      "id": "d9fe",
+      "reviewerId": "001",
+      "nameOfPage": "sample page-05",
+      "pageUrl": "https://www.facebook.com/samplepage05",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "The product quality was excellent but the delivery was delayed.",
+      "productPriceRating": 4,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 2,
+      "CustomerServiceRating": 3
+    },
+    {
+      "id": "812b",
+      "reviewerId": "002",
+      "nameOfPage": "sample page-08",
+      "pageUrl": "https://www.facebook.com/samplepage08",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "I'm satisfied with my purchase. Good quality products.",
+      "productPriceRating": 5,
+      "productQualityRating": 4,
+      "DeliveryServiceRating": 3,
+      "CustomerServiceRating": 2
+    },
+    {
+      "id": "48a7",
+      "reviewerId": "003",
+      "nameOfPage": "sample page-33",
+      "pageUrl": "https://www.facebook.com/samplepage33",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "The page offers a wide variety of products at reasonable prices.",
+      "productPriceRating": 4,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 3,
+      "CustomerServiceRating": 2
+    },
+    {
+      "id": "247e",
+      "reviewerId": "004",
+      "nameOfPage": "sample page-07",
+      "pageUrl": "https://www.facebook.com/samplepage07",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "Disappointed with the customer service. They were unresponsive to my queries.",
+      "productPriceRating": 3,
+      "productQualityRating": 2,
+      "DeliveryServiceRating": 4,
+      "CustomerServiceRating": 1
+    },
+    {
+      "id": "16d3",
+      "reviewerId": "005",
+      "nameOfPage": "sample page-06",
+      "pageUrl": "https://www.facebook.com/samplepage06",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "The product was delivered on time and the quality exceeded my expectations.",
+      "productPriceRating": 5,
+      "productQualityRating": 4,
+      "DeliveryServiceRating": 3,
+      "CustomerServiceRating": 2
+    },
+    {
+      "id": "f4a9",
+      "reviewerId": "006",
+      "nameOfPage": "sample page-08",
+      "pageUrl": "https://www.facebook.com/samplepage08",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "Average experience. The product quality was okay but could be better.",
+      "productPriceRating": 3,
+      "productQualityRating": 3,
+      "DeliveryServiceRating": 4,
+      "CustomerServiceRating": 2
+    },
+    {
+      "id": "cb06",
+      "reviewerId": "007",
+      "nameOfPage": "sample page-08",
+      "pageUrl": "https://www.facebook.com/samplepage08",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "The page has a good selection of products but the prices are a bit high.",
+      "productPriceRating": 4,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 3,
+      "CustomerServiceRating": 2
+    },
+    {
+      "id": "a803",
+      "reviewerId": "008",
+      "nameOfPage": "sample page-012",
+      "pageUrl": "https://www.facebook.com/samplepage12",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "I received the wrong product and it took a long time to get it sorted out.",
+      "productPriceRating": 2,
+      "productQualityRating": 1,
+      "DeliveryServiceRating": 3,
+      "CustomerServiceRating": 4
+    },
+    {
+      "id": "78d2",
+      "reviewerId": "009",
+      "nameOfPage": "sample page-011",
+      "pageUrl": "https://www.facebook.com/samplepage011",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "Good quality products at affordable prices.",
+      "productPriceRating": 4,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 3,
+      "CustomerServiceRating": 2
+    },
+    {
+      "id": "5309",
+      "reviewerId": "010",
+      "nameOfPage": "sample page-07",
+      "pageUrl": "https://www.facebook.com/samplepage07",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "I had a pleasant shopping experience on this page. Good quality products and fast delivery.",
+      "productPriceRating": 4,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 3,
+      "CustomerServiceRating": 2
+    },
+    {
+      "id": "17b2",
+      "reviewerId": "001",
+      "nameOfPage": "sample page-09",
+      "pageUrl": "https://www.facebook.com/samplepage09",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "I recently purchased a pair of shoes from this page. The ordering process was smooth and hassle-free. The shoes arrived promptly and were exactly as described. I'm very pleased with the product quality and the overall shopping experience.",
+      "productPriceRating": 5,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 4,
+      "CustomerServiceRating": 5
+    },
+    {
+      "id": "5ff8",
+      "reviewerId": "002",
+      "nameOfPage": "sample page-05",
+      "pageUrl": "https://www.facebook.com/samplepage05",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "I ordered a dress for a special occasion from this page. The selection of dresses was fantastic, and I found the perfect one at a reasonable price. The delivery was swift, and the dress exceeded my expectations in terms of quality and fit. I received numerous compliments when I wore it. Overall, I had an exceptional shopping experience.",
+      "productPriceRating": 5,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 5,
+      "CustomerServiceRating": 5
+    },
+    {
+      "id": "7d92",
+      "reviewerId": "003",
+      "nameOfPage": "sample page-06",
+      "pageUrl": "https://www.facebook.com/samplepage06",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "I purchased a phone case from this page after searching for a durable yet stylish option. The variety of designs available was impressive, and I found one that perfectly suited my preferences. The case arrived promptly, and I was pleased with its quality and sturdiness. It provides excellent protection for my phone while also looking great. I highly recommend this page for anyone looking for high-quality phone accessories.",
+      "productPriceRating": 4,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 4,
+      "CustomerServiceRating": 4
+    },
+    {
+      "id": "8b3e",
+      "reviewerId": "004",
+      "nameOfPage": "sample page-05",
+      "pageUrl": "https://www.facebook.com/samplepage05",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "I've been a regular customer of this page for a while now, and I've always been impressed with the quality of their products and the efficiency of their service. Recently, I purchased a set of kitchen utensils, and once again, I wasn't disappointed. The utensils are durable, easy to clean, and a pleasure to use. The delivery was quick, and the customer service team promptly addressed a minor query I had. Overall, I'm extremely satisfied with my purchase and will continue to support this page.",
+      "productPriceRating": 5,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 5,
+      "CustomerServiceRating": 5
+    },
+    {
+      "id": "9c4a",
+      "reviewerId": "005",
+      "nameOfPage": "sample page-02",
+      "pageUrl": "https://www.facebook.com/samplepage02",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "I recently bought a smartwatch from this page, and I'm extremely impressed with both the product and the service. The smartwatch has exceeded my expectations in terms of functionality and design. It seamlessly connects with my devices, and the battery life is impressive. The delivery was quick, and the packaging was secure. I appreciate the attention to detail and the excellent customer service provided by this page. I highly recommend them to anyone in need of quality tech products.",
+      "productPriceRating": 5,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 5,
+      "CustomerServiceRating": 5
+    },
+    {
+      "id": "b875",
+      "reviewerId": "006",
+      "nameOfPage": "sample page-22",
+      "pageUrl": "https://www.facebook.com/samplepage22",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "I've had a wonderful experience shopping on this page. The range of products is extensive, catering to various needs and preferences. Recently, I purchased a set of skincare products, and I've been delighted with the results. The products are of high quality and have significantly improved the condition of my skin. The delivery was prompt, and the packaging was secure. I appreciate the effort put into ensuring customer satisfaction by this page and will definitely be a returning customer.",
+      "productPriceRating": 5,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 5,
+      "CustomerServiceRating": 5
+    },
+    {
+      "id": "c632",
+      "reviewerId": "007",
+      "nameOfPage": "sample page-15",
+      "pageUrl": "https://www.facebook.com/samplepage15",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "My experience with this page has been nothing short of excellent. I recently purchased a set of home decor items, and I'm thrilled with how they've transformed my living space. The quality of the products is exceptional, and they arrived well-packaged and in perfect condition. The delivery was prompt, and the customer service team was responsive and helpful. I highly recommend this page to anyone looking to enhance their home with stylish and high-quality decor.",
+      "productPriceRating": 5,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 5,
+      "CustomerServiceRating": 5
+    },
+    {
+      "id": "f6fd",
+      "reviewerId": "008",
+      "nameOfPage": "sample page-09",
+      "pageUrl": "https://www.facebook.com/samplepage09",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "I recently made a purchase from this page, and I'm extremely satisfied with the experience. The product selection is diverse, and I was able to find exactly what I was looking for. The quality of the product exceeded my expectations, and it arrived promptly. I also appreciated the personalized customer service provided by the team. Overall, it was a seamless and enjoyable shopping experience.",
+      "productPriceRating": 5,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 5,
+      "CustomerServiceRating": 5
+    },
+    {
+      "id": "d240",
+      "reviewerId": "009",
+      "nameOfPage": "sample page-45",
+      "pageUrl": "https://www.facebook.com/samplepage45",
+      "experienceDate": "2024-03-09T18:00:00.000Z",
+      "experience": "I've been a loyal customer of this page for years, and they never disappoint. Recently, I purchased a set of books, and as always, the quality of the products and the service exceeded my expectations. The books arrived promptly and were well-packaged. The customer service team was friendly and responsive to my queries. I highly recommend this page to fellow book lovers.",
+      "productPriceRating": 5,
+      "productQualityRating": 5,
+      "DeliveryServiceRating": 5,
+      "CustomerServiceRating": 5
+    },
+    {
+      "id": "0831",
+      "reviewerId": "001",
+      "pageUrl": "https://www.facebook.com/randompostsofficial/",
+      "nameOfPage": "sample 9",
+      "experienceDate": "2024-03-02T18:00:00.000Z",
+      "experience": "আমাদের দেশে হবে ...। been a loyal customer of this page for years, and they never disappoint. Recently, I purchased a set of books, and as always, the quality of the products and the service exceeded my expectations. The books arrived promptly and were well-packaged. The customer service team was friendly and responsive to my queries. I highly recommend this page to fellow book lovers. been a loyal customer of this page for years, and they never disappoint. Recently, I purchased a set of books, and as always, the quality of the products and the service exceeded my expectations. The books arrived promptly and were well-packaged. The customer service team was friendly and responsive to my queries. I highly recommend this page to fellow book lovers. been a loyal customer of this page for years, and they never disappoint. Recently, I purchased a set of books, and as always, the quality of the products and the service exceeded my expectations. The books arrived promptly and were well-packaged. The customer service team was friendly and responsive to my queries. I highly recommend this page to fellow book lovers. been a loyal customer of this page for years, and they never disappoint. Recently, I purchased a set of books, and as always, the quality of the products and the service exceeded my expectations. The books arrived promptly and were well-packaged. The customer service team was friendly and responsive to my queries. I highly recommend this page to fellow book lovers. been a loyal customer of this page for years, and they never disappoint. Recently, I purchased a set of books, and as always, the quality of the products and the service exceeded my expectations. The books arrived promptly and were well-packaged. The customer service team was friendly and responsive to my queries. I highly recommend this page to fellow book lovers.",
+      "productPriceRating": 1,
+      "productQualityRating": 2,
+      "DeliveryServiceRating": 3,
+      "CustomerServiceRating": 3
+    }
+  ]
+}

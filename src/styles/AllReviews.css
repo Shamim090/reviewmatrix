@@ -1,0 +1,11 @@
+/* Import base styles */
+@import "reviewBase";
+
+/* Specific styles for AllReviews component */
+
+.all-reviews {
+  display: flex;
+  flex-wrap: wrap; /* Wrap reviews on smaller screens */
+  margin: 0 auto; /* Center content horizontally */
+  width: 100%; /* Adjust width as needed */
+}
